@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { Button, Card } from 'my-library/components'
-</script>
-
 <template>
   <Card>
     <template #header>

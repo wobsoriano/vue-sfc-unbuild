@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
-import MyPlugin from 'my-library'
+import MyLibrary from 'my-library'
 import App from './App.vue'
 
 const app = createApp(App)
-app.use(MyPlugin())
+app.use(MyLibrary)
 
 app.mount('#app')
