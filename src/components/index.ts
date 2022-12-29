@@ -1,5 +1,7 @@
-import SampleComponent from './SampleComponent.vue'
+import Card from './Card.vue'
+import Button from './Button.vue'
 
 export {
-  SampleComponent,
+  Card,
+  Button,
 }
