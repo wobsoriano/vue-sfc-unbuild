@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "paths": {
+      "my-library": ["../src"],
+      "my-library/components": ["../src/components"]
+    }
+  },
+  "include": ["./**/*"]
+}

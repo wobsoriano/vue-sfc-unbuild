@@ -19,9 +19,13 @@
       "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
+    },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.mjs"
     }
   },
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
@@ -33,11 +37,12 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "components.d.ts"
   ],
   "scripts": {
     "build": "unbuild",
-    "dev": "unbuild --stub",
+    "dev": "vite serve dev",
     "lint": "eslint .",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && npm publish",
@@ -52,15 +57,13 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
     "@types/node": "^18.11.18",
+    "@vitejs/plugin-vue": "^4.0.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.30.0",
-    "esno": "^0.16.3",
-    "rimraf": "^3.0.2",
     "taze": "^0.8.5",
     "typescript": "^4.9.4",
     "unbuild": "^1.0.2",
     "vite": "^4.0.3",
-    "vitest": "^0.26.2",
     "vue": "^3.2.45"
   }
 }
