@@ -31,4 +31,3 @@ npm run dev:serve
 ## License
 
 MIT
-# vue-component-library-starter
