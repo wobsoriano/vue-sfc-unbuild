@@ -25,7 +25,7 @@ npm run build
 npm run dev:build
 
 # preview the dev app locally from dev/dist
-npm run dev:serve
+npm run dev:preview
 ```
 
 ## License
