@@ -26,20 +26,21 @@
       "import": "./dist/components/index.mjs"
     }
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
+        "*",
+        "dist/*",
+        "dist/*.d.ts",
+        "dist/*/index.d.ts"
       ]
     }
   },
   "files": [
-    "dist",
-    "components.d.ts"
+    "dist"
   ],
   "scripts": {
     "build": "unbuild",
