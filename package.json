@@ -15,17 +15,10 @@
   "keywords": [],
   "sideEffects": false,
   "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
-    },
-    "./components": {
-      "types": "./dist/components/index.d.ts",
-      "require": "./dist/components/index.cjs",
-      "import": "./dist/components/index.mjs"
-    }
+    ".": "./dist/index.mjs",
+    "./components": "./dist/components/index.mjs"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
