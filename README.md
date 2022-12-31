@@ -30,7 +30,7 @@ npm run dev:preview
 
 ## Usage
 
-Install all components
+Install all components (as a plugin)
 
 ```ts
 // src/main.ts
