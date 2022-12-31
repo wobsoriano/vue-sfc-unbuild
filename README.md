@@ -28,6 +28,31 @@ npm run dev:build
 npm run dev:preview
 ```
 
+## Usage
+
+Install all components
+
+```ts
+// src/main.ts
+
+import { createApp } from 'vue'
+import MyLibrary from 'my-library'
+
+import App from './App.vue'
+
+const app = createApp(App)
+app.use(MyLibrary)
+app.mount('#app')
+```
+
+Import some components
+
+```vue
+<script setup lang="ts">
+import { Button, Card } from 'my-library/components'
+</script>
+```
+
 ## License
 
 MIT
