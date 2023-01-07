@@ -9,7 +9,7 @@ Features:
 - Playground with [vite](https://vitejs.dev/)
 - Sample SFC to kick-start development
 
-## Usage
+## Setup
 
 Vue 3
 
@@ -22,8 +22,6 @@ Vue 2
 ```bash
 npx degit wobsoriano/vue-sfc-unbuild#vue2 library-name
 ```
-
-## Setup
 
 ```bash
 # install dependencies
