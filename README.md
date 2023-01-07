@@ -1,6 +1,6 @@
-# Vue Component Library Starter
+# vue-sfc-unbuild
 
-Bundleless Vue component library starter.
+Bundleless Vue 2/3 component library starter.
 
 Features:
 
@@ -8,6 +8,20 @@ Features:
 - File-to-file transpilation via [mkdist](https://github.com/unjs/mkdist)
 - Playground with [vite](https://vitejs.dev/)
 - Sample SFC to kick-start development
+
+## Usage
+
+Vue 3
+
+```bash
+npx degit wobsoriano/vue-sfc-unbuild library-name
+```
+
+Vue 2
+
+```bash
+npx degit wobsoriano/vue-sfc-unbuild#vue2 library-name
+```
 
 ## Setup
 
