@@ -6,21 +6,21 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
       '@types/node': ^18.11.18
-      '@vitejs/plugin-vue': ^4.0.0
+      '@vitejs/plugin-vue2': ^2.2.0
       eslint: ^8.30.0
       typescript: ^4.9.4
       unbuild: ^1.0.2
       vite: ^4.0.3
-      vue: ^3.2.45
+      vue: ^2.7.14
     devDependencies:
       '@antfu/eslint-config': 0.34.0_lzzuuodtsqwxnvqeq4g4likcqa
       '@types/node': 18.11.18
-      '@vitejs/plugin-vue': 4.0.0_vite@4.0.3+vue@3.2.45
+      '@vitejs/plugin-vue2': 2.2.0_vite@4.0.3+vue@2.7.14
       eslint: 8.30.0
       typescript: 4.9.4
       unbuild: 1.0.2
       vite: 4.0.3_@types+node@18.11.18
-      vue: 3.2.45
+      vue: 2.7.14
 
   playground:
     specifiers:
@@ -933,6 +933,17 @@ packages:
       vue: 3.2.45
     dev: true
 
+  /@vitejs/plugin-vue2/2.2.0_vite@4.0.3+vue@2.7.14:
+    resolution: {integrity: sha512-1km7zEuZ/9QRPvzXSjikbTYGQPG86Mq1baktpC4sXqsXlb02HQKfi+fl8qVS703JM7cgm24Ga9j+RwKmvFn90A==}
+    engines: {node: ^14.18.0 || >= 16.0.0}
+    peerDependencies:
+      vite: ^3.0.0 || ^4.0.0
+      vue: ^2.7.0-0
+    dependencies:
+      vite: 4.0.3_@types+node@18.11.18
+      vue: 2.7.14
+    dev: true
+
   /@volar/language-core/1.0.18:
     resolution: {integrity: sha512-PFrqAksKhiuAqNV4fefoMilX+JutVq0Z3iM14xjLvWPv68fs2dLedwU84GiHfSPTMmRiPCJ2HhH2rz4qNY42lA==}
     dependencies:
@@ -986,6 +997,14 @@ packages:
     dependencies:
       '@vue/compiler-core': 3.2.45
       '@vue/shared': 3.2.45
+
+  /@vue/compiler-sfc/2.7.14:
+    resolution: {integrity: sha512-aNmNHyLPsw+sVvlQFQ2/8sjNuLtK54TC6cuKnVzAY93ks4ZBrvwQSnkkIh7bsbNhum5hJBS00wSDipQ937f5DA==}
+    dependencies:
+      '@babel/parser': 7.20.7
+      postcss: 8.4.20
+      source-map: 0.6.1
+    dev: true
 
   /@vue/compiler-sfc/3.2.45:
     resolution: {integrity: sha512-1jXDuWah1ggsnSAOGsec8cFjT/K6TMZ0sPL3o3d84Ft2AYZi2jWJgRMjw4iaK0rBfA89L5gw427H4n1RZQBu6Q==}
@@ -1292,6 +1311,10 @@ packages:
 
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+
+  /csstype/3.1.1:
+    resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+    dev: true
 
   /de-indent/1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
@@ -3601,6 +3624,13 @@ packages:
       '@volar/vue-language-core': 1.0.18
       '@volar/vue-typescript': 1.0.18
       typescript: 4.9.4
+    dev: true
+
+  /vue/2.7.14:
+    resolution: {integrity: sha512-b2qkFyOM0kwqWFuQmgd4o+uHGU7T+2z3T+WQp8UBjADfEv2n4FEMffzBmCKNP0IGzOEEfYjvtcC62xaSKeQDrQ==}
+    dependencies:
+      '@vue/compiler-sfc': 2.7.14
+      csstype: 3.1.1
     dev: true
 
   /vue/3.2.45:
