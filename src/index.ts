@@ -1,7 +1,7 @@
-import type { Plugin } from 'vue'
+import type { PluginObject } from 'vue'
 import * as components from './components'
 
-const install: Plugin = {
+const install: PluginObject<any> = {
   install(app) {
     for (const key in components) {
       // @ts-expect-error: TODO
