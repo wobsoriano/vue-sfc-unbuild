@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      'my-library': path.relative(__dirname, '../src'),
+      'my-library': path.resolve(__dirname, '../src'),
     },
   },
 })
