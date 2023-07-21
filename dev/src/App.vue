@@ -1,7 +1,3 @@
-<script setup lang="ts">
-console.log(123)
-</script>
-
 <template>
   <Card>
     <template #header>

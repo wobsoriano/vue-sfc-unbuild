@@ -1,7 +1,7 @@
 {
   "name": "my-library",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.32.5",
+  "packageManager": "pnpm@7.33.5",
   "description": "",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "license": "MIT",
@@ -52,14 +52,14 @@
     "vue": "^3.2.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.3",
-    "@types/node": "^20.2.4",
+    "@antfu/eslint-config": "^0.39.8",
+    "@types/node": "^20.4.3",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/tsconfig": "^0.4.0",
-    "eslint": "^8.41.0",
-    "typescript": "^5.0.4",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6",
     "unbuild": "^1.2.1",
-    "vite": "^4.3.9",
+    "vite": "^4.4.6",
     "vue": "^3.3.4"
   }
 }
