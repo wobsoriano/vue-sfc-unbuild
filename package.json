@@ -39,7 +39,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "components.d.ts"
   ],
   "scripts": {
     "build": "unbuild",
